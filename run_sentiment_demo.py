@@ -1,5 +1,6 @@
 import pandas as pd
-from sentiment_analysis.gpt_sentiment import load_finbert, gpt_sentiment_score
+from sentiment_analysis.gpt_sentiment import gpt_sentiment_score
+from transformers import pipeline
 import os
 import json
 
