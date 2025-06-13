@@ -1,0 +1,11 @@
+openai
+requests
+beautifulsoup4
+pandas
+numpy
+matplotlib
+seaborn
+transformers
+torch
+streamlit
+backtrader
