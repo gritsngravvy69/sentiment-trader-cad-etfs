@@ -8,7 +8,7 @@ import json
 df = pd.read_csv("data_ingestion/sample_headlines.csv")
 
 # Load FinBERT model
-finbert = load_finbert()
+finbert = pipeline("sentiment-analysis", model="ProsusAI/finbert", tokenizer="ProsusAI/finbert")
 
 # Your OpenAI key (use env variable or paste directly for now)
 OPENAI_KEY = os.getenv("OPENAI_API_KEY") or "your-openai-key-here"
