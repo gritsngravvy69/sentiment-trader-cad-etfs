@@ -2,7 +2,7 @@ import openai
 import os
 
 def gpt_sentiment_score(text, api_key):
-    openai.api_key = api_key  # Set OpenAI key
+    openai.api_key = api_key
 
     prompt = f"""
     Analyze the sentiment of the following financial news headline. Return your answer in this JSON format:
